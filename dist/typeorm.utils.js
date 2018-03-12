@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const logger = new common_1.Logger('TypeOrm');
+const logger = new common_1.Logger('TypeOrm', true);
 function getRepositoryToken(entity) {
     return `${entity.name}Repository`;
 }

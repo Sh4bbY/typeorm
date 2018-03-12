@@ -1,6 +1,6 @@
 import { Logger } from '@nestjs/common';
 
-const logger = new Logger('TypeOrm');
+const logger = new Logger('TypeOrm', true);
 
 export function getRepositoryToken(entity: Function) {
   return `${entity.name}Repository`;
