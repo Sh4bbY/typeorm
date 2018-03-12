@@ -7,7 +7,7 @@ export function getRepositoryToken(entity: Function) {
 }
 
 export async function attemptConnectionCreation(connectMethod, options, attempt?) {
-  const maxAttempts       = 5;
+  const maxAttempts       = 10;
   const connectionAttempt = attempt || 1;
 
   try {

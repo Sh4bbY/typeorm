@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
+  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json"
